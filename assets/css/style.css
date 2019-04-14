@@ -1,0 +1,83 @@
+.page-name {
+	font-size: 125px;
+	color: whitesmoke;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	text-align: center;
+}
+
+.message {
+	color: white;
+	text-align: center;
+	font-family: cursive;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    margin-left: 15px;
+}
+
+.btn, .submit {
+    border-radius: 20px;
+    background-color: transparent;
+    color: rgb(207, 87, 147); 
+    font-size: 25px;
+    border: transparent;
+}
+
+.btn:hover {
+	background-color: transparent; 
+    color: black;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.jumbotron {
+	background-image:linear-gradient(rgb(238, 133, 224), black);
+    width: 100%;
+    padding: 20px;
+}
+
+.input {
+    font-family: sans-serif;
+    width: 300px;
+    border: 1px solid black;
+    border-radius: 5px;
+    
+}
+
+.input-form {
+    text-align: center;
+    margin-left: auto;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gif-container{
+    display: flex;
+    justify-content: center;
+}
+
+.gifs {
+    margin-bottom: 10px;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+img {
+    border: 2px solid black;
+    margin: 20px;
+}
+
+form {
+    margin-top: 20px;
+}
